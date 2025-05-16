@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = " Email or Mobile No"; ObjectID = "BFD-tV-jbI"; */
+"BFD-tV-jbI.text" = " Email or Mobile No";
+
+/* Class = "UILabel"; text = "Sign In Later?"; ObjectID = "K2B-eQ-9bu"; */
+"K2B-eQ-9bu.text" = "Sign In Later?";
+
+/* Class = "UILabel"; text = " SignIn With"; ObjectID = "Liq-H8-Prf"; */
+"Liq-H8-Prf.text" = " SignIn With";
+
+/* Class = "UIButton"; configuration.title = "Sign In"; ObjectID = "LjX-ac-fTr"; */
+"LjX-ac-fTr.configuration.title" = "Sign In";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LjX-ac-fTr"; */
+"LjX-ac-fTr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = " Password"; ObjectID = "m9z-SM-Anw"; */
+"m9z-SM-Anw.text" = " Password";

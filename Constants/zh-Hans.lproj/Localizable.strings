@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Avox
+
+  Created by Nimap on 17/02/24.
+  
+*/
+
+"downloads" = "下载";
+"notification" = "通知";
+"changeLanguage" = "改变语言";
+"darkMode" = "深色模式";
+"pushNotification" = "推送通知";
+"subscription" = "订阅";
+"privacy" = "隐私";
+"aboutUs" = "关于我们";
+"settings" = "设置";
+"name" = "姓名";
+"email" = "电子邮件";
+"general" = "一般的";
+"appVersion" = "由 Pexels Pvt Ltd \n提供支持 应用程序版本 1.0.1";
+"explore" = "探索";
+"latest" = "最新的";
+"mountain" = "山";
+"nature" = "自然";
+"kolkata" = "加尔各答";
+"ocean" = "海洋";
+"wallpaper" = "墙纸";
+"flower" = "花";
+"beauty" = "美丽";
+"computer" = "电脑";
+"person" = "人";
+"masjid" = "清真寺";
+"dataNotFound" = "未找到数据！";
+"search" = "搜索";
+"selectLanguage" = "选择语言";
+"termServices" = "服务条款";
+"langaugeMessage" = "要更改语言，您需要重新启动应用程序，是否要重新启动？";
+"yes" = "是的";
+"no" = "不";
+"ok" = "好的";
+"successful" = "成功的";
+"dowloadMessage" = "如果您看到壁纸 -> 转到设置 -> 下载，则壁纸下载成功";
+"video" = "视频";
+"logout" = "登出";
+"logoutTitle" = "您确定要退出吗";
+"letGetStarted" = "让我们开始吧!";
+"loginFeature" = "登录即可享受额外福利和个性化壁纸，以增强您的移动体验";
+"nickNameValidation" = "请输入您的昵称";
+"emailValidation" = "请输入您的电子邮件";
+"validEmailValidation" = "请输入有效电子邮件";
+"otpValidation" = "输入的 OTP 不正确";
+"termAndServices" = "条款与服务";
+"suggestion" = "建议";
+"optionMenu" = "选项菜单";
+"profile" = "简介信息";
+"downloadImage" = "下载图片";
+"openImage" = "打开完整图像视图";
+"profileView" = "个人资料视图";
+"location" = "Locations";
+"avatarValidation" = "Please select a profile avatar";

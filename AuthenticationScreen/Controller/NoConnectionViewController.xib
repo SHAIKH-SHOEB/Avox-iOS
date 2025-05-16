@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoConnectionViewController" customModule="Avox" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonTopConstraint" destination="MlH-4n-kuW" id="rIm-R6-oQk"/>
+                <outlet property="imageHeight" destination="ZEC-Ro-r62" id="njJ-BB-ifI"/>
+                <outlet property="imageWidth" destination="Vhn-vD-Fow" id="GN6-Hg-QKs"/>
+                <outlet property="noConnectionImage" destination="qq8-Qe-vOn" id="eqX-hd-sMA"/>
+                <outlet property="noConnectionLabel" destination="7lw-ca-4Q1" id="JGf-N6-R8z"/>
+                <outlet property="stackView" destination="Tad-UZ-6c4" id="yzr-bZ-ClE"/>
+                <outlet property="tryAgainButton" destination="keG-I6-vbu" id="xUb-TW-vtM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="whoopsLabel" destination="AA9-Po-5l9" id="hzx-dh-9zP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Tad-UZ-6c4">
+                    <rect key="frame" x="20" y="344" width="374" height="222"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoConnection" translatesAutoresizingMaskIntoConstraints="NO" id="qq8-Qe-vOn">
+                            <rect key="frame" x="127" y="0.0" width="120" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="Vhn-vD-Fow"/>
+                                <constraint firstAttribute="height" constant="120" id="ZEC-Ro-r62"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whoops!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA9-Po-5l9">
+                            <rect key="frame" x="123.5" y="125" width="127.5" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="dBf-mU-CWV"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="kDF-CA-UkK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            <color key="textColor" name="TextPrimaryColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Internet connection was found. Check your connection or try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lw-ca-4Q1">
+                            <rect key="frame" x="26.5" y="166" width="321.5" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="Jzp-51-PN5"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="gkd-NQ-3DU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" name="TextSecondaryColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keG-I6-vbu">
+                    <rect key="frame" x="16" y="646" width="382" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="Cuu-RP-zKj"/>
+                    </constraints>
+                    <buttonConfiguration key="configuration" style="filled" title="Try Again" cornerStyle="capsule">
+                        <color key="baseForegroundColor" name="BGPrimaryColor"/>
+                        <color key="baseBackgroundColor" name="AppPrimaryColor"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BGPrimaryColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="keG-I6-vbu" secondAttribute="trailing" constant="16" id="IMo-Ef-83X"/>
+                <constraint firstItem="keG-I6-vbu" firstAttribute="top" secondItem="Tad-UZ-6c4" secondAttribute="bottom" constant="80" id="MlH-4n-kuW"/>
+                <constraint firstItem="Tad-UZ-6c4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Yfm-9t-mxM"/>
+                <constraint firstItem="keG-I6-vbu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="jMn-3R-SGx"/>
+                <constraint firstItem="Tad-UZ-6c4" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="o6j-4k-aVf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Tad-UZ-6c4" secondAttribute="trailing" constant="20" id="x8v-gV-chf"/>
+            </constraints>
+            <point key="canvasLocation" x="52.671755725190835" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NoConnection" width="170.5" height="170.5"/>
+        <namedColor name="AppPrimaryColor">
+            <color red="0.94509803921568625" green="0.32941176470588235" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BGPrimaryColor">
+            <color red="0.96899998188018799" green="0.97600001096725464" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextPrimaryColor">
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextSecondaryColor">
+            <color red="0.2630000114440918" green="0.2630000114440918" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

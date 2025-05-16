@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="NotificationTableViewCell" customModule="Avox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BM9-Ar-UqC">
+                        <rect key="frame" x="3" y="3" width="314" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 JAN 2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0W-Xy-eFe">
+                                <rect key="frame" x="227" y="8" width="72" height="14.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <color key="textColor" name="TextPrimaryColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="oOU-Gt-S9J">
+                                <rect key="frame" x="249" y="26" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="YyC-gW-Qu6"/>
+                                    <constraint firstAttribute="height" constant="50" id="yYM-Bo-01m"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="CGF-g4-G5j">
+                                <rect key="frame" x="15" y="13.000000000000004" width="214" height="58.333333333333343"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dear Anonymous" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOZ-rc-BMY">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="14.333333333333334"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <color key="textColor" name="TextPrimaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transform your device with our diverse collection of wallpapers. Find your perfect match!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QZ-Q1-waN">
+                                        <rect key="frame" x="0.0" y="15.333333333333329" width="190" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" name="TextSecondaryColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="BGPrimaryColor"/>
+                        <constraints>
+                            <constraint firstItem="CGF-g4-G5j" firstAttribute="centerY" secondItem="BM9-Ar-UqC" secondAttribute="centerY" id="4Ti-Dx-m4j"/>
+                            <constraint firstAttribute="bottom" secondItem="oOU-Gt-S9J" secondAttribute="bottom" constant="8" id="NCn-At-wxs"/>
+                            <constraint firstItem="g0W-Xy-eFe" firstAttribute="top" secondItem="BM9-Ar-UqC" secondAttribute="top" constant="8" id="Sdn-Ix-5NM"/>
+                            <constraint firstItem="CGF-g4-G5j" firstAttribute="leading" secondItem="BM9-Ar-UqC" secondAttribute="leading" constant="15" id="eR8-ME-RB4"/>
+                            <constraint firstAttribute="trailing" secondItem="g0W-Xy-eFe" secondAttribute="trailing" constant="15" id="hPU-SS-Ina"/>
+                            <constraint firstAttribute="trailing" secondItem="oOU-Gt-S9J" secondAttribute="trailing" constant="15" id="unq-dm-nIp"/>
+                            <constraint firstItem="oOU-Gt-S9J" firstAttribute="leading" secondItem="CGF-g4-G5j" secondAttribute="trailing" constant="20" id="vEg-t1-O5u"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="BM9-Ar-UqC" secondAttribute="trailing" constant="3" id="63o-Ip-fVL"/>
+                    <constraint firstItem="BM9-Ar-UqC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="Gl7-O4-GW0"/>
+                    <constraint firstItem="BM9-Ar-UqC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="3" id="JW6-Sx-LOd"/>
+                    <constraint firstAttribute="bottom" secondItem="BM9-Ar-UqC" secondAttribute="bottom" constant="3" id="fF7-zJ-gNi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="baseView" destination="BM9-Ar-UqC" id="xLo-lF-WGr"/>
+                <outlet property="dateLabel" destination="g0W-Xy-eFe" id="rWg-Y4-Xmr"/>
+                <outlet property="notificationImage" destination="oOU-Gt-S9J" id="xyD-Vp-Sf1"/>
+                <outlet property="titleLabel" destination="3QZ-Q1-waN" id="pa2-7U-0Uy"/>
+                <outlet property="userLabel" destination="rOZ-rc-BMY" id="OrW-u6-tWX"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="35.91549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AppLogo" width="666.66668701171875" height="311.33334350585938"/>
+        <namedColor name="BGPrimaryColor">
+            <color red="0.96899998188018799" green="0.97600001096725464" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextPrimaryColor">
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextSecondaryColor">
+            <color red="0.2630000114440918" green="0.2630000114440918" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

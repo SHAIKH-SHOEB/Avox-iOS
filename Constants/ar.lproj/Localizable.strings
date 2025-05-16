@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Avox
+
+  Created by Nimap on 17/02/24.
+  
+*/
+
+"downloads" = "التحميلات";
+"notification" = "إشعارات";
+"changeLanguage" = "تغيير اللغة";
+"darkMode" = "الوضع المظلم";
+"pushNotification" = "دفع الإخطارات";
+"subscription" = "الاشتراك";
+"privacy" = "خصوصية";
+"settings" = "إعدادات";
+"name" = "اسم";
+"email" = "بريد إلكتروني";
+"general" = "عام";
+"appVersion" = "مدعوم من تطبيق Pexels Pvt Ltd \nالإصدار 1.0.1";
+"explore" = "يستكشف";
+"latest" = "أحدث";
+"mountain" = "جبل";
+"nature" = "طبيعة";
+"kolkata" = "كولكاتا";
+"ocean" = "محيط";
+"wallpaper" = "ورق الجدران";
+"flower" = "ورد";
+"beauty" = "جمال";
+"computer" = "حاسوب";
+"person" = "شخص";
+"masjid" = "مسجد";
+"dataNotFound" = "!لم يتم العثور على بيانات";
+"search" = "يبحث";
+"selectLanguage" = "اختار اللغة";
+"termServices" = "شروط الخدمة";
+"aboutUs" = "معلومات عنا";
+"langaugeMessage" = "لتغيير اللغة تحتاج إلى إعادة تشغيل التطبيق، هل تريد إعادة التشغيل؟";
+"yes" = "نعم";
+"no" = "لا";
+"ok" = "نعم";
+"successful" = "ناجح";
+"dowloadMessage" = "تم تنزيل الخلفية بنجاح إذا رأيت الخلفية -> إعدادات GoTo -> التنزيلات";
+"video" = "أشرطة فيديو";
+"logout" = "تسجيل خروج";
+"logoutTitle" = "هل أنت متأكد أنك تريد تسجيل الخروج";
+"letGetStarted" = "هيا بنا نبدأ!";
+"loginFeature" = "قم بتسجيل الدخول للحصول على امتيازات إضافية وخلفيات مخصصة لتعزيز تجربة هاتفك المحمول";
+"nickNameValidation" = "الرجاء إدخال اسم الشهرة الخاص بك";
+"emailValidation" = "رجاءا أدخل بريدك الإلكتروني";
+"validEmailValidation" = "يرجى إدخال البريد الإلكتروني الصحيح";
+"otpValidation" = "كلمة المرور لمرة واحدة التي تم إدخالها غير صحيحة";
+"termAndServices" = "الشروط والخدمات";
+"suggestion" = "اقتراح";
+"optionMenu" = "قائمة الخيارات";
+"profile" = "معلومات الشخصي";
+"downloadImage" = "تحميل الصورة";
+"openImage" = "افتح عرض الصورة الكاملة";
+"profileView" = "عرض الملف الشخصي";
+"location" = "Locations";
+"avatarValidation" = "Please select a profile avatar";

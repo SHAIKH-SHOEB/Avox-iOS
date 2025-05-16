@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="SuggestionTableViewCell" customModule="Avox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AP1-18-Ghr">
+                        <rect key="frame" x="4" y="4" width="312" height="92"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TajMahal" translatesAutoresizingMaskIntoConstraints="NO" id="KXi-L2-1ss">
+                                <rect key="frame" x="10" y="11" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="bDt-4d-nsQ"/>
+                                    <constraint firstAttribute="height" constant="70" id="jWY-pV-TkU"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="t1d-hx-CdG">
+                                <rect key="frame" x="90" y="23.666666666666668" width="212" height="44.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taj Mahal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frs-23-etK">
+                                        <rect key="frame" x="0.0" y="0.0" width="212" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agra, Uttar Pardesh" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boe-Ne-HFW">
+                                        <rect key="frame" x="0.0" y="24.333333333333336" width="212" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="BGPrimaryColor"/>
+                        <constraints>
+                            <constraint firstItem="t1d-hx-CdG" firstAttribute="centerY" secondItem="AP1-18-Ghr" secondAttribute="centerY" id="0Q6-G3-hoD"/>
+                            <constraint firstItem="KXi-L2-1ss" firstAttribute="centerY" secondItem="AP1-18-Ghr" secondAttribute="centerY" id="4dL-XG-K45"/>
+                            <constraint firstItem="t1d-hx-CdG" firstAttribute="leading" secondItem="KXi-L2-1ss" secondAttribute="trailing" constant="10" id="TtY-K4-Rms"/>
+                            <constraint firstAttribute="trailing" secondItem="t1d-hx-CdG" secondAttribute="trailing" constant="10" id="nmM-Pi-csR"/>
+                            <constraint firstItem="KXi-L2-1ss" firstAttribute="leading" secondItem="AP1-18-Ghr" secondAttribute="leading" constant="10" id="pJ4-9U-juy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="AP1-18-Ghr" secondAttribute="bottom" constant="4" id="6MY-Qy-Jb5"/>
+                    <constraint firstAttribute="trailing" secondItem="AP1-18-Ghr" secondAttribute="trailing" constant="4" id="Vfd-oJ-Tfn"/>
+                    <constraint firstItem="AP1-18-Ghr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="f9x-wp-IY4"/>
+                    <constraint firstItem="AP1-18-Ghr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="lFa-Tj-5No"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="baseView" destination="AP1-18-Ghr" id="ewa-NA-bar"/>
+                <outlet property="imageHeight" destination="jWY-pV-TkU" id="sUl-td-gH1"/>
+                <outlet property="imageWidth" destination="bDt-4d-nsQ" id="JCK-9F-sWZ"/>
+                <outlet property="subTitleLabel" destination="boe-Ne-HFW" id="mc3-Hh-sjF"/>
+                <outlet property="thumbnailImage" destination="KXi-L2-1ss" id="nwa-cj-Ic1"/>
+                <outlet property="titleLabel" destination="frs-23-etK" id="x8i-Ux-jPw"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="39.436619718309863"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="TajMahal" width="290" height="190.66667175292969"/>
+        <namedColor name="BGPrimaryColor">
+            <color red="0.96899998188018799" green="0.97600001096725464" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
